@@ -13,6 +13,10 @@ git rm <file-name>
 
 ### Deleting last n commits 
 ```
-git git reset HEAD~n
+git reset HEAD~n
+```
+to reflefct the **deleted commit on remote**: 
+```
+git push --force
 ```
 
