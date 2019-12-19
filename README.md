@@ -20,3 +20,12 @@ to reflefct the **deleted commit on remote**:
 git push --force
 ```
 
+
+### Stashing changing before pull
+```
+git stash
+git pull 
+git stash clear 
+```
+
+
