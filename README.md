@@ -10,6 +10,10 @@ git commit_id1 commit_id2 -- file
 ```
 git rm <file-name>
 ```
+### Reseting a file to a particular commit 
+```
+git checkout <commit_ID> path/to/the/file.txt
+```
 
 ### Deleting last n commits 
 ```
@@ -19,7 +23,6 @@ to reflefct the **deleted commit on remote**:
 ```
 git push --force
 ```
-
 
 ### Stashing changing before pull
 ```
