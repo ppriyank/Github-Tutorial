@@ -32,3 +32,8 @@ git stash clear
 ```
 
 
+### Adding files to .gitignore 
+```
+git config --global core.excludesfile '~/.gitignore'
+echo '.ipynb_checkpoints' >> ~/.gitignore
+```
