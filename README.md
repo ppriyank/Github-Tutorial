@@ -37,3 +37,11 @@ git stash clear
 git config --global core.excludesfile '~/.gitignore'
 echo '.ipynb_checkpoints' >> ~/.gitignore
 ```
+
+### Deleting a file only from a repository
+```
+git rm file2.txt /path/to/the/file --cached
+git rm folder/* --dry-run
+```
+doing just `rm` deletes the files from file system as well
+
