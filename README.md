@@ -24,6 +24,11 @@ to reflefct the **deleted commit on remote**:
 git push --force
 ```
 
+### Reseting file changes 
+```
+git checkout filename
+```
+
 ### Stashing changing before pull
 ```
 git stash
