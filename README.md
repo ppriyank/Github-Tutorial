@@ -50,3 +50,9 @@ git rm folder/* --dry-run
 ```
 doing just `rm` deletes the files from file system as well
 
+### disable username/password based git push
+
+The git is cloned via https, change it to ssh: 
+```
+git remote set-url origin git@github.com:username/repo.git
+```
