@@ -42,6 +42,16 @@ git stash clear
 git config --global core.excludesfile '~/.gitignore'
 echo '.ipynb_checkpoints' >> ~/.gitignore
 ```
+```
+*.DS_Store*
+dist/*
+target/
+lib_managed/
+src_managed/
+/.idea/
+__pycache__
+*.class
+```
 
 ### Deleting a file only from a repository
 ```
