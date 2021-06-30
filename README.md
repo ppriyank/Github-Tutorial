@@ -66,3 +66,8 @@ The git is cloned via https, change it to ssh:
 ```
 git remote set-url origin git@github.com:username/repo.git
 ```
+
+### Changing last commit message
+```
+git commit --amend
+```
